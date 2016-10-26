@@ -64,15 +64,19 @@ wavpath = os.path.dirname(os.path.realpath(__file__))
 Light = [1,2,3,4]
 Button = [1,2,3,4]
 Sound = [1,2,3,4]
+# Orange Paddle
 Light[0] = 15
 Button[0] = 16
 Sound[0] = pygame.mixer.Sound(wavpath + "/1.wav")
+# Green Paddle
 Light[1] = 32
 Button[1] = 31
 Sound[1] = pygame.mixer.Sound(wavpath + "/2.wav")
+# Purple Paddle
 Light[2] = 35
 Button[2] = 36
-Sound[2] = pygame.mixer.Sound(wavpath + "/3.wav") 
+Sound[2] = pygame.mixer.Sound(wavpath + "/3.wav")
+# Blue Paddle
 Light[3] = 38
 Button[3] = 37
 Sound[3] = pygame.mixer.Sound(wavpath + "/4.wav")
