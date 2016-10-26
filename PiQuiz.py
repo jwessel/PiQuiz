@@ -47,8 +47,6 @@ Light[3] = 38
 Button[3] = 37
 Sound[3] = pygame.mixer.Sound(wavpath + "/4.wav")
 
-print wavpath + "/4.wav"
-
 # Moderator Button Number
 Moderator = Button[0]
 
